@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<title>Forest - Park Botaniczny</title>
+		<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+	rel="stylesheet"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<link rel="stylesheet" href="/dist/css/style.min.css" />
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="/dist/js/aos.min.js"></script>
+<script defer src="/dist/js/script.min.js"></script>
+
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="wrapper">
+				<div class="nav__box">
+					<div class="nav__logo">
+						<a href="#">
+							<i class="fa-solid fa-tree"></i>
+							<span>Forest</span>
+						</a>
+					</div>
+
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+
+					<div class="nav__navigation nav__navigation--mobile">
+						<a class="nav__item" href="#">Home</a>
+						<a class="nav__item" href="#aboutus">O nas</a>
+						<a class="nav__item" href="#offer">Oferta</a>
+						<a class="nav__item" href="contact.html">Kontakt</a>
+					</div>
+
+					<div class="nav__navigation nav__navigation--desktop">
+						<a class="nav__item" href="#">Home</a>
+						<a class="nav__item" href="#aboutus">O nas</a>
+						<a class="nav__item" href="#offer">Oferta</a>
+						<a class="nav__item" href="contact.html">Kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<header class="header">
+			<div class="header__hero-img"></div>
+			<div class="header__mask"></div>
+
+			<div class="wrapper">
+				<div class="header__text" data-aos="fade-up" data-aos-delay="200">
+					<p>Forest Group</p>
+					<h1>Najpiękniejszy park w Twojej okolicy!</h1>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="aboutus section" id="aboutus">
+				<div class="wrapper">
+					<div class="section-heading" data-aos="zoom-in" data-aos-delay="400">
+						<h2>O nas</h2>
+					</div>
+					<div class="aboutus__box">
+						<div
+							class="aboutus__img"
+							data-aos="fade-right"
+							data-aos-delay="200"
+						>
+							<img
+								src="/dist/img/aboutus-img.jpg"
+								alt="Mała wyspa na jeziorze, w tle las."
+							/>
+						</div>
+						<div
+							class="aboutus__text"
+							data-aos="fade-left"
+							data-aos-delay="400"
+						>
+							<h3>Niezapomniane przygody</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+								in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+								nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+								sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section image">
+				<div class="image__img"></div>
+				<div class="image__mask"></div>
+				<div class="wrapper">
+					<div class="image__content">
+						<p>Przygoda dla całej rodziny</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="section offer" id="offer">
+				<div class="wrapper">
+					<div class="section-heading" data-aos="zoom-in" data-aos-delay="400">
+						<h2>Oferta</h2>
+					</div>
+					<div class="offer__box">
+						<h3
+							class="offer__choose-offer"
+							data-aos="zoom-in"
+							data-aos-delay="400"
+						>
+							Wybierz jedną z naszych wspaniałych ofert!
+						</h3>
+
+						<div class="offer__offers-box">
+							<div
+								class="offer__item"
+								data-aos="flip-left"
+								data-aos-delay="200"
+							>
+								<h3 class="offer__title">Demo</h3>
+								<p class="offer__price">$0</p>
+								<div class="offer__body">
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p class="offer__worse">
+										<i class="fa-solid fa-minus"></i> opcja poza pakietem
+									</p>
+									<p class="offer__worse">
+										<i class="fa-solid fa-minus"></i> opcja poza pakietem
+									</p>
+									<p class="offer__worse">
+										<i class="fa-solid fa-minus"></i> opcja poza pakietem
+									</p>
+								</div>
+								<button class="offer__btn">Wybierz</button>
+							</div>
+
+							<div
+								class="offer__item"
+								data-aos="flip-left"
+								data-aos-delay="400"
+							>
+								<h3 class="offer__title">Standard</h3>
+								<p class="offer__price">$99</p>
+								<div class="offer__body">
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p class="offer__worse">
+										<i class="fa-solid fa-minus"></i> opcja poza pakietem
+									</p>
+									<p class="offer__worse">
+										<i class="fa-solid fa-minus"></i> opcja poza pakietem
+									</p>
+								</div>
+								<button class="offer__btn offer__btn--special">Wybierz</button>
+							</div>
+
+							<div
+								class="offer__item"
+								data-aos="flip-left"
+								data-aos-delay="600"
+							>
+								<h3 class="offer__title">Premium</h3>
+								<p class="offer__price">$299</p>
+								<div class="offer__body">
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+									<p><i class="fa-solid fa-check"></i> opcja w pakiecie</p>
+								</div>
+								<button class="offer__btn">Wybierz</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="footer__box">
+					<div class="footer__logo">
+						<a href="#">
+							<i class="fa-solid fa-tree"></i>
+							<span>Forest</span>
+						</a>
+					</div>
+					<div class="footer__info-box">
+						<h3 class="footer__item">O nas</h3>
+						<a class="footer__item" href="#">Historia</a>
+						<a class="footer__item" href="#">Parki</a>
+						<a class="footer__item" href="#">Opinie</a>
+					</div>
+
+					<div class="footer__info-box">
+						<h3 class="footer__item">Nasza firma</h3>
+						<a class="footer__item" href="#">Praca</a>
+						<a class="footer__item" href="#">Kadry</a>
+						<a class="footer__item" href="#">Zarząd</a>
+					</div>
+
+					<div class="footer__info-box">
+						<h3 class="footer__item">Dekumenty</h3>
+						<a class="footer__item" href="#">Wnioski</a>
+						<a class="footer__item" href="#">Rezerwacje</a>
+					</div>
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="footer__bottom">
+				<span
+					>&copy;<span class="footer__year"></span> Forest Group Company
+					Ltd.</span
+				>
+			</div>
+		</footer>
+	</body>
+</html>

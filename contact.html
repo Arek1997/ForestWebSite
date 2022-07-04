@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<title>Kontakt - Park Botaniczny</title>
+		<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+	integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	crossorigin="anonymous"
+	referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+	rel="stylesheet"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<link rel="stylesheet" href="/dist/css/style.min.css" />
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="/dist/js/aos.min.js"></script>
+<script defer src="/dist/js/script.min.js"></script>
+
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="wrapper">
+				<div class="nav__box">
+					<div class="nav__logo">
+						<a href="#">
+							<i class="fa-solid fa-tree"></i>
+							<span>Forest</span>
+						</a>
+					</div>
+
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+
+					<div class="nav__navigation nav__navigation--mobile">
+						<a class="nav__item" href="index.html">Home</a>
+						<a class="nav__item" href="#contact">Kontakt</a>
+					</div>
+
+					<div class="nav__navigation nav__navigation--desktop">
+						<a class="nav__item" href="index.html">Home</a>
+						<a class="nav__item" href="#contact">Kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<section class="section contact" id="contact">
+				<div class="wrapper">
+					<div class="section-heading" data-aos="zoom-in" data-aos-delay="100">
+						<h2>Kontakt</h2>
+					</div>
+					<div class="contact__box">
+						<div class="contact__info" data-aos="zoom-in" data-aos-delay="200">
+							<h3>Dane kontaktowe</h3>
+							<p>Forest - Park Botaniczny</p>
+							<p>ul. Jasnogórskiej 2</p>
+							<p>Kraków</p>
+							<p>123456789</p>
+							<p>mail@mail.com</p>
+						</div>
+						<div class="contact__map" data-aos="zoom-in" data-aos-delay="400">
+							<iframe
+								class="map"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.89826866441!2d19.89065485160418!3d50.088191521180384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1656933952619!5m2!1spl!2spl"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+
+						<div class="contact__text" data-aos="zoom-in" data-aos-delay="300">
+							<h3>Formularz kontaktowy</h3>
+							<p>Jeśli masz jakieś pytania skontakuj się z nami.</p>
+						</div>
+
+						<div class="form" data-aos="zoom-in" data-aos-delay="500">
+							<form
+								class="contact__form"
+								action="https://formsubmit.co/szewczyk.arek1997@gmail.com"
+								method="POST"
+							>
+								<input
+									type="text"
+									name="Imię i nazwisko"
+									placeholder="Imię i nazwisko"
+									required
+								/>
+								<input type="email" name="email" placeholder="Email" required />
+
+								<textarea
+									class="contact__textarea"
+									name="Wiadomość"
+									placeholder="Twoja wiadomość"
+									required
+								></textarea>
+								<button class="contact__btn" type="submit">Send</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="footer__box">
+					<div class="footer__logo">
+						<a href="#">
+							<i class="fa-solid fa-tree"></i>
+							<span>Forest</span>
+						</a>
+					</div>
+					<div class="footer__info-box">
+						<h3 class="footer__item">O nas</h3>
+						<a class="footer__item" href="#">Historia</a>
+						<a class="footer__item" href="#">Parki</a>
+						<a class="footer__item" href="#">Opinie</a>
+					</div>
+
+					<div class="footer__info-box">
+						<h3 class="footer__item">Nasza firma</h3>
+						<a class="footer__item" href="#">Praca</a>
+						<a class="footer__item" href="#">Kadry</a>
+						<a class="footer__item" href="#">Zarząd</a>
+					</div>
+
+					<div class="footer__info-box">
+						<h3 class="footer__item">Dekumenty</h3>
+						<a class="footer__item" href="#">Wnioski</a>
+						<a class="footer__item" href="#">Rezerwacje</a>
+					</div>
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="footer__bottom">
+				<span
+					>&copy;<span class="footer__year"></span> Forest Group Company
+					Ltd.</span
+				>
+			</div>
+		</footer>
+	</body>
+</html>
